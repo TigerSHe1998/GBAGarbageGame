@@ -18,7 +18,7 @@ Controls:
 
 3 IMAGES: Title screen background (fullscreen), win game background (fullscreen), garbage icons (not fullscreen).
 
-SELECT KEY RESET: implemented.
+SELECT KEY RESET: select is mapped to backspace on keyboard.
 
 BUTTON INPUT: the player controlled character is controlled by buttons.
 
@@ -26,4 +26,4 @@ BUTTON INPUT: the player controlled character is controlled by buttons.
 
 OBJECT COLLISION: eating garbage when the boundaries between player and garbage collides. Screen boundaries collisions are also detected to prevents player from going off-screen.
 
-TEXTS: core updates realtime and uses drawString(), lose game text uses drawCenteredString()
+TEXTS: score updates realtime and uses drawString(), lose game text uses drawCenteredString()
